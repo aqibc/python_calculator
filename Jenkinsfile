@@ -1,6 +1,6 @@
 pipeline {
 	agent {
-		label generic
+		label 'generic'
 	}//label
 	stages {
         stage("Run the code") {
